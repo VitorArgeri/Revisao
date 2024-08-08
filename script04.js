@@ -6,11 +6,17 @@ let queijos = ["Mussarela", "Queijo Prato", "Provolone", "Gorgonzola"];
 let carnes = ["Calabresa", "Pepperoni", "Frango", "Bacon"];
 let vegetais = ["Tomate", "Cebola", "Pimentão", "Azeitona", "Manjericão"];
 
+let pizza = [];
 
-let pizza = [massas[1], molhos[0], queijos[2], carnes[3], vegetais[4]];
+pizza.push(massas[1]);
+pizza.push(molhos[0]);
+pizza.push(queijos[2]);
+pizza.push(carnes[3]);
+pizza.push(vegetais[4]);
 
 console.log('Pizza Montada:');
 
 for(let i = 0; i < pizza.length; i++) {
     console.log(pizza[i]);
 }
+
